@@ -32,12 +32,14 @@ Implementações dos principais algoritmos de escalonamento de processos:
 
 #### Acadêmicos: [Antonio André](https://github.com/andrebarceloschagas) e Luiz Felipe
 
-- **[FCFS (First-Come, First-Served)](atividade_2/fcfs.c)**
+- **[Escalonador FCFS (First-Come, First-Served)](atividade_2/fcfs.c)**
   - **Descrição**: Simula o escalonamento onde o primeiro processo a chegar é o primeiro a ser executado.
-- **[SJF (Shortest Job First)](atividade_2/sjf.c)**
+- **[Escalonador SJF (Shortest Job First)](atividade_2/sjf.c)**
   - **Descrição**: Simula o escalonamento pelo menor tempo de execução (não preemptivo).
 - **[Round Robin](atividade_2/round_robin.c)**
   - **Descrição**: Simula o escalonamento com fatias de tempo (quantum), alternando entre os processos prontos.
+- **[Fila de Prioridade](atividade_2/prioridade.c)**
+  - **Descrição**: Simula o escalonamento de processos baseado em prioridades, onde processos com maior prioridade são executados antes dos demais.
 
 ## Organização
 
