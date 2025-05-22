@@ -1,5 +1,17 @@
-
-
+/* 
+ * Algoritmo de Escalonamento por Prioridade Preemptivo
+ * Este programa simula o escalonamento de processos utilizando uma política de prioridades preemptiva.
+ * A cada instante de tempo, o processo com a maior prioridade entre os prontos é selecionado para execução.
+ * Se um processo de maior prioridade se torna pronto enquanto outro de menor prioridade está executando,
+ * o de menor prioridade é preemptado (interrompido) e o de maior prioridade assume a CPU.
+ * O critério de prioridade adotado é: menor valor numérico indica maior prioridade.
+ * Em caso de empate na prioridade, o desempate é feito pelo tempo de chegada (FCFS) e,
+ * persistindo o empate, pelo menor ID do processo.
+ * O programa calcula e exibe os tempos de início, término, espera e retorno para cada processo,
+ * além dos tempos médios de espera e retorno do conjunto de processos.
+ * Autor: Antonio André Barcelos Chagas
+ * Data: 21/05/2025 
+ */
 
 #include <stdio.h>
 #include <stdlib.h> // Para malloc, free
