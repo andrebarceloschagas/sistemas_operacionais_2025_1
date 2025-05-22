@@ -134,7 +134,7 @@
                  // Nenhum processo não finalizado restante. Isso significa que processos_finalizados == n.
                  // O loop while deve terminar. Se não, é um erro de estado.
                  if (processos_finalizados < n) {
-                     // fprintf(stderr, "Alerta: CPU ociosa, mas há processos não finalizados sem chegadas futuras.\n");
+                    fprintf(stderr, "Alerta: CPU ociosa, mas há processos não finalizados sem chegadas futuras.\n");
                      // Isso pode indicar um problema se o loop não terminar.
                      // Por segurança, apenas avançar o tempo para tentar novamente.
                      tempo_atual++;

@@ -144,7 +144,7 @@ int main() {
         // Se houve preempção ou a CPU estava ociosa e um novo processo começou
         if (ultimo_processo_executado != idx_candidato) {
              // Poderia imprimir aqui qual processo está rodando, se quisesse um log detalhado.
-             // printf("Tempo %d: Processo %d está executando.\n", tempo_atual, p[idx_candidato].id);
+             printf("Tempo %d: Processo %d está executando.\n", tempo_atual, p[idx_candidato].id);
              ultimo_processo_executado = idx_candidato;
         }
 
